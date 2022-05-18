@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Alura Challenge - Desafio 1</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="logo">
+        <img src="images/Logo.png" alt="" />
+    </div>
+    <div class="rectangulo"></div>
+
+    <img src="images/Muñeco.png" alt="imagen hombre buscando" class="munieco active" />
+
+    <div class="frame-5 active">
+      <div class="mensaje">
+        <p class="notificar">Ningún mensaje fue encontrado</p>
+      </div>
+      <div class="mensaje-2">
+        <p class="agregar">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+    </div>
+
+    <textarea name="desencriptar-texto" class="texto-Salida" id="desencriptar-texto" cols="30"
+      rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</textarea>
+
+    <button class="btn-3" type="button" id="btn-copy">
+      <div class="copy-text">Copiar</div>
+    </button>
+
+    <textarea name="text-input" class="texto-Entrada" id="text-input" cols="20" rows="30">
+		Ingrese el texto aqui</textarea>
+
+    <div class="frame-1">
+      <p class="frame-1-texto">
+        <img src="images/Vector.png" alt="" />Solo letras minúsculas y sin acentos.
+      </p>
+    </div>
+
+    <div class="frame-3">
+      <button class="btn-1" type="button" id="btn-encriptar" />
+      <div class="btn-1-text">Encriptar</div></button>
+      <button class="btn-2" type="button" id="btn-desencriptar" />
+      <div class="btn-2-text">Desencriptar</div></button>
+    </div>
+    
+  </main>
+
+  <footer class="pie-pagina">Desarrollado por Marcelo Di Natale y ORACLE One + Alura LATAM ©2022</footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/encriptar.js"></script>
+  <script src="js/desencriptar.js"></script>
+  <script src="js/copiar.js"></script>
+  <script src="js/validar.js"></script>
+  <script src= "js/reemplazarLetra.js"></script>
+
+</body>
+
+</html>
